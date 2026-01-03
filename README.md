@@ -1,4 +1,4 @@
-# AI-Powered Financial Analysis Platform - Student Assignment
+# AI-Powered Financial Analysis Platform 
 
 ## 📋 Project Overview
 
@@ -17,7 +17,6 @@ This is a comprehensive Data Engineering and Machine Learning project that build
 
 ## 🎯 Learning Objectives
 
-By completing this project, you will learn:
 
 - ✅ **PySpark** - Distributed data processing and feature engineering
 - ✅ **Machine Learning** - Time series forecasting and classification
@@ -570,11 +569,11 @@ python -c "import ollama; print(ollama.chat(model='llama3.2', messages=[{'role':
 
 2. **Composite Score** (0-10):
    ```
-   Score = (Total_Return × 0.3) +      # 30% weight
-           (Trend_Score × 0.2) +        # 20% weight
-           (RSI_Score × 0.15) +         # 15% weight
-           (Volatility_Score × 0.15) +  # 15% weight
-           (Sharpe_Score × 0.2)         # 20% weight
+   Score = (Total_Return × 0.3) +     
+           (Trend_Score × 0.2) +       
+           (RSI_Score × 0.15) +        
+           (Volatility_Score × 0.15) +  
+           (Sharpe_Score × 0.2)         
    ```
 
 3. **Classification**:
@@ -592,23 +591,7 @@ python -c "import ollama; print(ollama.chat(model='llama3.2', messages=[{'role':
 
 ---
 
-## 🎓 Grading Rubric
 
-| Task | Points | Criteria |
-|------|--------|----------|
-| Data Collection | 20 | Correct API usage, data quality, error handling |
-| Preprocessing | 30 | PySpark usage, feature engineering correctness, data validation |
-| Database | 15 | Schema design, data integrity, query efficiency |
-| Time Series ML | 35 | Model accuracy (R² ≥ 0.90), feature engineering, predictions |
-| Classification | 20 | Classification accuracy, feature design, interpretability |
-| Chatbot | 30 | NLP intent detection, ML integration, graph generation, LLM usage |
-| Dashboard | 20 | UI quality, interactivity, visualizations |
-| Testing | 10 | Test coverage, edge cases |
-| Code Quality | 10 | Documentation, style, modularity |
-| Documentation | 10 | README, comments, setup guide |
-| **Total** | **200** | |
-
----
 
 ## 📚 Resources
 
@@ -676,18 +659,6 @@ with sqlite3.connect(db_path) as conn:
 import matplotlib
 matplotlib.use('Agg')  # Non-interactive backend
 import matplotlib.pyplot as plt
-```
-
-
-
-**Submission Format**:
-```
-submission/
-├── code/                 # Complete project code
-├── README.md            # Project documentation
-├── REPORT.pdf           # Technical report
-├── demo_video.mp4       # Demo video (optional)
-└── screenshots/         # Dashboard screenshots
 ```
 
 
