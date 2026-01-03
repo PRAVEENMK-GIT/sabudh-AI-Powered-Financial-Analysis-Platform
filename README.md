@@ -678,34 +678,7 @@ matplotlib.use('Agg')  # Non-interactive backend
 import matplotlib.pyplot as plt
 ```
 
----
 
-## 🏆 Bonus Challenges (Extra Credit)
-
-1. **Advanced NLP** (+10 points): Add LLaVA model for chart image analysis
-2. **Real-time Data** (+10 points): Stream live stock prices using WebSocket
-3. **Deep Learning** (+15 points): Add LSTM model for comparison
-4. **Deployment** (+10 points): Deploy dashboard to cloud (Heroku/AWS)
-5. **API** (+10 points): Create FastAPI REST endpoints for predictions
-
----
-
-## 📝 Submission Guidelines
-
-1. **Code**: Push to GitHub repository
-2. **Documentation**: Complete README with:
-   - Setup instructions
-   - How to run pipeline
-   - Model performance metrics
-   - Screenshots of dashboard
-3. **Video Demo**: 5-minute walkthrough (optional but recommended)
-4. **Report**: PDF with:
-   - Architecture diagram
-   - Feature engineering decisions
-   - Model evaluation results
-   - Challenges faced and solutions
-
-**Deadline**: [Set by instructor]
 
 **Submission Format**:
 ```
@@ -717,29 +690,7 @@ submission/
 └── screenshots/         # Dashboard screenshots
 ```
 
----
 
-## 💡 Tips for Success
-
-1. **Start Early** - Data collection can take time
-2. **Test Incrementally** - Don't wait to test everything at once
-3. **Use Version Control** - Commit frequently to Git
-4. **Document as You Go** - Write comments and docstrings
-5. **Ask Questions** - Use course forums or office hours
-6. **Validate Data** - Check data quality at each step
-7. **Monitor Resources** - PySpark can be memory-intensive
-8. **Handle Errors** - Add try-except blocks everywhere
-
----
-
-## 📞 Support
-
-- **Instructor**: [Your Name]
-- **Office Hours**: [Times]
-- **Course Forum**: [Link]
-- **Email**: [Your Email]
-
----
 
 ## 📄 License
 
@@ -748,7 +699,3 @@ This project template is for educational purposes only. Stock market predictions
 **Disclaimer**: Past performance does not guarantee future results. This project is for educational purposes only and should not be used for actual investment decisions.
 
 ---
-
-**Good luck! 🚀 You're building a real-world data engineering + ML system!**
-# sabudh-AI-Powered-Financial-Analysis-Platform
-# sabudh-AI-Powered-Financial-Analysis-Platform
